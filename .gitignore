@@ -1,1 +1,28 @@
-/target
+# Rust build artifacts
+/target/
+**/*.rs.bk
+
+# Cargo.lock
+# Libraries usually do NOT commit Cargo.lock
+Cargo.lock
+
+# IDEs / editors
+.vscode/
+.idea/
+*.iml
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Env files
+.env
+.env.*
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
